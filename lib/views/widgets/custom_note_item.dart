@@ -19,9 +19,9 @@ class NoteItem extends StatelessWidget {
         );
       },
       child: Container(
-        padding: EdgeInsets.only(top: 24, bottom: 24, left: 16),
+        padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
         decoration: BoxDecoration(
-          color: Color(0xffFFCC80),
+          color: const Color(0xffFFCC80),
           borderRadius: BorderRadius.circular(15),
         ),
         child: Column(
@@ -49,7 +49,7 @@ class NoteItem extends StatelessWidget {
                   )),
             ),
             Padding(
-              padding: EdgeInsets.only(right: 24),
+              padding: const EdgeInsets.only(right: 24),
               child: Text('Nov23,2024',
                   style: TextStyle(color: Colors.black.withOpacity(.5))),
             )
