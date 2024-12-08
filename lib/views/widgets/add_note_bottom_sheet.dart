@@ -22,7 +22,7 @@ class AddNoteBottomSheet extends StatelessWidget {
           );
         }, listener: (context, state) {
           if (state is AddNoteFailure) {
-            print('failed ${state.errMessage}')
+            print('failed ${state.errMessage}');
           }
           if (state is AddNoteSuccess) {
             Navigator.pop(context);
